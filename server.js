@@ -10,8 +10,8 @@ app.get('/endpoint', (req, res) => {
         current_day: new Date().toLocaleDateString(),
         utc_time: new Date().toUTCString(),
         track: 'backend',
-        github_file_url: param1,
-        github_repo_url: param2,
+        github_file_url: 'https://hng-task-backend.onrender.com',
+        github_repo_url: 'https://github.com/jesusemen/hngtaskbackend',
         status_code: res.statusCode
     };
 
